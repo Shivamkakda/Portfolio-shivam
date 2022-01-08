@@ -125,11 +125,29 @@ img{
     position: fixed;
     top: var(--header-height);
     right: -100%;
-    width: 80%;
+    width: 50%;
     height: 100%;
     padding: 2rem;
     background-color: var(--second-color);
     transition: .5s;
+  }
+  .home__title{
+    font-size: var(--big-font-size);
+    margin-left: 30px;
+    text-align: center;
+  }
+ 
+  span > button{
+    width: 20%;
+    background-color: #cdd3d6;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 20px;
+    padding: auto;
+    margin-bottom: 0;
+    border-radius: 5%;
+    box-shadow: 0 4px 25px rgba(14,36,49,.15);
   }
   
 }
@@ -184,6 +202,7 @@ img{
 .home__title{
   font-size: var(--big-font-size);
   margin-left: 30px;
+  
 }
 .home__title-color{
   color: var(--first-color);
@@ -203,9 +222,9 @@ img{
 }
 .home__img{
   position: absolute;
-  width: 250px;
+  width: 200px;
   margin-top: 200px;
-  margin-left: 30px;
+  justify-self: center;
 }
 
 .button{
@@ -238,8 +257,6 @@ img{
   text-align: center;
   display: inline-block;
   margin: 10px 120px 10px;
-  
-
 }
 .skills__subtitle{
   margin-bottom: var(--mb-2);
@@ -309,6 +326,32 @@ img{
 }
 .work__img img:hover{
   transform: scale(1.1);
+}
+.work__img >a{
+  color: black;
+}
+.btn{
+  width: 100%;
+  text-align: end;
+}
+span > button{
+  width: 35%;
+  background-color: #cdd3d6;
+  color: black;
+  height: 35px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px;
+  padding: auto;
+  margin-bottom: 0;
+  border-radius: 5%;
+  box-shadow: 0 4px 25px rgba(14,36,49,.15);
+}
+span > button:hover{
+  transform: scale(1.1);
+}
+button > a{
+  color: black;
 }
 .footer{
   background-color: var(--second-color);
@@ -384,6 +427,7 @@ img{
     width: 400px;
     right: 2%;
     margin-top: 120px;
+    text-align: center;
   }
 
   .about__container, .skills__container{
@@ -398,6 +442,12 @@ img{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1,1fr);
     column-gap: 2rem;
+  }
+  .work__img img{
+    border: 2px solid gray;
+    transition: 1s;
+    cursor: pointer;
+    width: fit-content;
   }
 
 }

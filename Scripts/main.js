@@ -20,10 +20,13 @@ function linkAction(){
 navLink.forEach(n => n.addEventListener('click', linkAction));
 const sr = ScrollReveal({
     origin: 'top',
-    distance: '80px',
+    distance: '60px',
     duration: 2000,
     reset: true
 });
+function linkdin(){
+    window.location.href = "https://www.linkedin.com/in/shivam-sharma-a7b3ab205/"
+}
 sr.reveal('.home__title',{}); 
 sr.reveal('.button',{delay: 200}); 
 sr.reveal('.home__img',{delay: 400}); 
@@ -37,3 +40,4 @@ sr.reveal('.skills__data',{interval: 200});
 sr.reveal('.skills__img',{delay: 600});
 sr.reveal('.work__img',{interval: 200}); 
 sr.reveal('.contact__input',{interval: 200}); 
+sr.reveal('.btn',{delay: 200});
