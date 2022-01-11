@@ -139,15 +139,12 @@ img{
  
   span > button{
     width: 20%;
-    background-color: #cdd3d6;
-    color: black;
-    font-size: 14px;
-    font-weight: bold;
-    margin: 20px;
-    padding: auto;
-    margin-bottom: 0;
-    border-radius: 5%;
-    box-shadow: 0 4px 25px rgba(14,36,49,.15);
+    border: 2px solid #3986fa;
+    padding: 10px 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    font-weight: 400;
   }
   
 }
@@ -338,7 +335,7 @@ img{
 }
 .work__img >p{
   color: black;
-  padding: 5px;
+  padding: 8px;
 }
 .btn{
   width: 100%;
@@ -351,15 +348,18 @@ span > button{
   margin: 20px;
   border: 2px solid #3986fa;
     padding: 10px 1rem;
-    border-radius: 5px;
     cursor: pointer;
     transition: all .2s ease-in-out;
     font-weight: 400;
     outline: none;
+    display: inline-block;
+  color: #fff;
+  border-radius: .5rem;
 }
 span > button:hover{
   transform: scale(1.1);
   background-color:  #3986fa;
+  color: white;
 }
 button > a{
   color: black;
