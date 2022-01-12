@@ -13,4 +13,4 @@ I am a Passoinate Cricketer and having interest in Helping Animals.
 </h1>
 <h2><a href ="https://shivam-sharma-portfolio.netlify.app/">Portfolio</a></h2>
 <h1>Screenshot</h1>
-<img src ="\compontents\img\Portfol1.PNG">
+<img src="compontents/img/Portfol1.PNG" alt="">
